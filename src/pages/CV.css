@@ -1,0 +1,378 @@
+/* CV Page Styles */
+:root {
+  --cv-primary: #2563eb;
+  --cv-text: #1f2937;
+  --cv-text-light: #6b7280;
+  --cv-border: #e5e7eb;
+  --cv-bg: #ffffff;
+  --cv-bg-alt: #f9fafb;
+  --cv-accent: #3b82f6;
+  --cv-spacing: 1rem;
+  --cv-radius: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--cv-primary);
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  z-index: 100;
+  border-radius: 0 0 var(--cv-radius) 0;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+.cv-page {
+  min-height: 100vh;
+  background: var(--cv-bg-alt);
+  padding: 2rem 1rem;
+}
+
+.cv-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: var(--cv-bg);
+  padding: 2.5rem;
+  border-radius: var(--cv-radius);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+/* Header */
+.cv-header {
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--cv-border);
+  margin-bottom: 2rem;
+}
+
+.cv-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--cv-text);
+  margin: 0 0 0.5rem 0;
+}
+
+.cv-title {
+  font-size: 1.25rem;
+  color: var(--cv-primary);
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+
+.cv-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.cv-contact-item a {
+  color: var(--cv-text-light);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.cv-contact-item a:hover {
+  color: var(--cv-primary);
+  text-decoration: underline;
+}
+
+.cv-contact-item span {
+  color: var(--cv-text-light);
+}
+
+/* Summary */
+.cv-summary {
+  line-height: 1.7;
+  color: var(--cv-text);
+  text-align: justify;
+}
+
+/* Grid Layout */
+.cv-grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Sections */
+.cv-section {
+  margin-bottom: 2rem;
+}
+
+.cv-section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--cv-text);
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--cv-primary);
+}
+
+.cv-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Items */
+.cv-item {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--cv-border);
+}
+
+.cv-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.cv-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.cv-item-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--cv-text);
+  margin: 0;
+}
+
+.cv-item-title a {
+  color: var(--cv-primary);
+  text-decoration: none;
+}
+
+.cv-item-title a:hover {
+  text-decoration: underline;
+}
+
+.cv-item-date {
+  font-size: 0.875rem;
+  color: var(--cv-text-light);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.cv-item-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.cv-item-company {
+  color: var(--cv-text);
+  font-weight: 500;
+}
+
+.cv-item-location {
+  color: var(--cv-text-light);
+}
+
+.cv-item-summary {
+  color: var(--cv-text-light);
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.cv-item-bullets {
+  margin: 0.75rem 0 0 1.25rem;
+  padding: 0;
+  list-style: disc;
+}
+
+.cv-item-bullets li {
+  margin-bottom: 0.5rem;
+  color: var(--cv-text);
+  line-height: 1.6;
+}
+
+/* Projects */
+.cv-project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.cv-tech-tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: var(--cv-bg-alt);
+  border: 1px solid var(--cv-border);
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  color: var(--cv-text);
+  font-weight: 500;
+}
+
+/* Skills */
+.cv-skill-group {
+  margin-bottom: 1.5rem;
+}
+
+.cv-skill-group:last-child {
+  margin-bottom: 0;
+}
+
+.cv-skill-category {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cv-text);
+  margin: 0 0 0.5rem 0;
+}
+
+.cv-skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.cv-skill-tag {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  background: var(--cv-primary);
+  color: white;
+  border-radius: 0.25rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Lists */
+.cv-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-list-item {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  color: var(--cv-text);
+}
+
+.cv-list-item strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--cv-text);
+}
+
+.cv-cert-date {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--cv-text-light);
+  margin-top: 0.25rem;
+}
+
+/* Sidebar */
+.cv-sidebar .cv-section-title {
+  font-size: 1.25rem;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .cv-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-sidebar {
+    order: -1;
+  }
+}
+
+@media (max-width: 640px) {
+  .cv-container {
+    padding: 1.5rem;
+  }
+
+  .cv-name {
+    font-size: 2rem;
+  }
+
+  .cv-title {
+    font-size: 1.1rem;
+  }
+
+  .cv-contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .cv-item-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cv-section-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .cv-page {
+    background: white;
+    padding: 0;
+  }
+
+  .cv-container {
+    box-shadow: none;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .cv-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-section {
+    page-break-inside: avoid;
+  }
+
+  .cv-item {
+    page-break-inside: avoid;
+  }
+
+  .skip-link {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .cv-contact-item a::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+  }
+}
+
+/* Focus Styles */
+*:focus-visible {
+  outline: 2px solid var(--cv-primary);
+  outline-offset: 2px;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
