@@ -232,7 +232,7 @@ const Projects = () => {
       title: 'Meat Home — Backend System',
       description: 'Multi-role backend system with JWT authentication for customer, driver, admin, and call-center roles. Features real-time order lifecycle management.',
       tech: ['Spring Boot', 'MySQL', 'JWT', 'REST APIs'],
-      github: 'https://github.com/Ahmed-Yosri14',
+      github: 'https://github.com/Ahmed-Amer01/Meat-Home-Backend',
       demo: '#',
       icon: Server,
       image: meatHomeImg
@@ -242,7 +242,7 @@ const Projects = () => {
       title: 'Fitness Tracker',
       description: 'Full-stack fitness tracking application with comprehensive testing including unit tests, API testing, UI automation, and load testing.',
       tech: ['Spring Boot', 'React', 'JUnit', 'Selenium', 'JMeter'],
-      github: 'https://github.com/Ahmed-Yosri14',
+      github: 'https://github.com/nourshaaban1/Fitness-Tracker-Backend',
       demo: '#',
       icon: TestTube,
       image: fitnessTrackerImg
@@ -252,7 +252,7 @@ const Projects = () => {
       title: 'Learning Management System',
       description: 'Backend APIs for course management, student enrollment, and JWT-based role-based access control.',
       tech: ['Spring Boot', 'MySQL', 'JWT', 'RBAC'],
-      github: 'https://github.com/Ahmed-Yosri14',
+      github: 'https://github.com/Ahmed-Yosri14/Learning-Management-System',
       demo: '#',
       icon: GraduationCap,
       image: lmsImg
@@ -262,7 +262,7 @@ const Projects = () => {
       title: 'Django Kitchen Recipe Platform',
       description: 'Recipe sharing platform with user authentication, CRUD operations, categories, and social interaction features.',
       tech: ['Django', 'MySQL', 'Python'],
-      github: 'https://github.com/Ahmed-Yosri14',
+      github: 'https://github.com/Ahmed-Yosri14/Was-Fit-Mama-Website',
       demo: '#',
       icon: Code2,
       image: kitchenRecipeImg
@@ -272,7 +272,7 @@ const Projects = () => {
       title: 'Command Line Interpreter',
       description: 'Modular command-line interface with advanced parsing capabilities following OOP principles.',
       tech: ['Java', 'OOP'],
-      github: 'https://github.com/Ahmed-Yosri14',
+      github: 'https://github.com/Ahmed-Yosri14/Command-Line-Interpreter',
       demo: '#',
       icon: Terminal,
       image: cliImg
