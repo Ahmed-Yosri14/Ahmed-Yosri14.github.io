@@ -143,7 +143,7 @@ const Hero = () => {
             and building reliable, scalable systems with comprehensive testing strategies.
           </p>
           <div className="hero-buttons">
-            <a href="#projects" className="btn btn-primary" onClick={() => {
+            <button className="btn btn-primary" onClick={() => {
               const projectsSection = document.getElementById('projects');
               if (projectsSection) {
                 projectsSection.scrollIntoView({ behavior: 'smooth' });
@@ -151,7 +151,7 @@ const Hero = () => {
             }}>
               <Rocket size={20} />
               View Projects
-            </a>
+            </button>
             <a
               href="https://drive.google.com/file/d/1ozcExHx9YExMxpH1DAUIYRpIQs3TenUa/view"
               target="_blank"
@@ -182,7 +182,6 @@ const About = () => {
     { icon: GraduationCap, label: 'GPA', value: '3.71/4.0', color: '#3b82f6' },
     { icon: Award, label: 'Department Rank', value: '26th', color: '#8b5cf6' },
     { icon: Code2, label: 'Projects', value: '5+', color: '#10b981' },
-    { icon: Briefcase, label: 'Experience', value: '2+ Years', color: '#f59e0b' },
   ];
 
   return (
