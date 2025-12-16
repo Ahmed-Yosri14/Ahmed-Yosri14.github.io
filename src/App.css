@@ -724,6 +724,10 @@ section {
   object-position: center;
   transition: transform 0.5s ease;
   padding: 1rem;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 .project-card:hover .project-image {

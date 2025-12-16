@@ -28,6 +28,7 @@ import lmsImg from './assets/Projects/FitnessTracke/LMS.png';
 // @ts-expect-error
 import kitchenRecipeImg from './assets/Projects/FitnessTracke/KitchenRecipe.PNG';
 import cliImg from './assets/Projects/FitnessTracke/CLI.png';
+import OptimizedImage from "./components/OptimizedImage.tsx";
 
 // Custom hook for scroll animations with bidirectional support
 const useScrollAnimation = () => {
@@ -293,7 +294,12 @@ const Projects = () => {
               style={{ animationDelay: `${index * 0.15}s` }}
             >
               <div className="project-image-wrapper">
-                <img src={project.image} alt={project.title} className="project-image" />
+                <OptimizedImage
+                  src={project.image}
+                  alt={project.title}
+                  className="project-image"
+                  loading="lazy"
+                />
                 <div className="project-image-overlay">
                   <project.icon className="project-icon-large" size={48} />
                 </div>
