@@ -209,9 +209,18 @@ const About = () => {
           </div>
           <div className="about-text">
             <p>
-              I'm a Software Engineer with experience in Backend Development, Software Testing,
-              and API-driven systems. Currently pursuing B.Sc. in Computer Science at Cairo University
-              with a GPA of 3.71/4.0, ranked 26th in my department.
+              I'm a Computer Science student at Cairo University with hands-on experience in backend development and software testing.
+              I enjoy building reliable systems using Java Spring Boot, designing RESTful APIs, and validating software through unit,
+              API, and automated testing.
+            </p>
+            <p>
+              I approach software with a quality-first mindset, focusing on correctness, edge cases, and maintainability. My background
+              in competitive programming has strengthened my problem-solving skills and attention to detail, which I apply when developing
+              and testing systems.
+            </p>
+            <p>
+              I'm currently seeking entry-level opportunities where I can contribute to building well-tested, high-quality software while
+              continuing to grow as a software engineer.
             </p>
 
           </div>

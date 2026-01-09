@@ -5,13 +5,55 @@
 }
 
 :root {
+  /* Base Colors */
   --bg-primary: #0a0a0a;
   --bg-secondary: #111111;
+  --bg-tertiary: #1a1a1a;
+
+  /* Text Colors with Better Hierarchy */
   --text-primary: #ffffff;
-  --text-secondary: #a0a0a0;
-  --accent: #3b82f6;
-  --accent-hover: #2563eb;
-  --border: #1f1f1f;
+  --text-secondary: #b0b0b0;
+  --text-tertiary: #808080;
+
+  /* Accent Colors */
+  --accent-blue: #3b82f6;
+  --accent-blue-hover: #2563eb;
+  --accent-blue-light: #60a5fa;
+  --accent-purple: #8b5cf6;
+  --accent-purple-hover: #7c3aed;
+  --accent-green: #10b981;
+  --accent-green-hover: #059669;
+
+  /* Gradient Variables */
+  --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  --gradient-primary-hover: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+  --gradient-secondary: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+  --gradient-accent: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+  --gradient-radial: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.08) 0%, transparent 70%);
+
+  /* Shadow System */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 12px 40px rgba(59, 130, 246, 0.2);
+  --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.3);
+  --shadow-glow-strong: 0 0 60px rgba(59, 130, 246, 0.5);
+
+  /* Border Colors */
+  --border-primary: #1f1f1f;
+  --border-secondary: rgba(59, 130, 246, 0.1);
+  --border-accent: rgba(59, 130, 246, 0.3);
+
+  /* Glassmorphism */
+  --glass-bg: rgba(17, 17, 17, 0.8);
+  --glass-border: rgba(59, 130, 246, 0.15);
+  --backdrop-blur: blur(12px);
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  --transition-bounce: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 body {
@@ -21,6 +63,7 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 #root {
