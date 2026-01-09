@@ -240,7 +240,7 @@ const Projects = () => {
       title: 'Meat Home — Backend System',
       description: 'Multi-role backend system with JWT authentication for customer, driver, admin, and call-center roles. Features real-time order lifecycle management.',
       tech: ['Spring Boot', 'MySQL', 'JWT', 'REST APIs'],
-      github: 'https://github.com/Ahmed-Amer01/Meat-Home-Backend',
+      github: 'https://github.com/Ahmed-Yosri14/Meat-Home-Backend',
       demo: '#',
       icon: Server,
       image: meatHomeImg
@@ -250,7 +250,7 @@ const Projects = () => {
       title: 'Fitness Tracker',
       description: 'Full-stack fitness tracking application with comprehensive testing including unit tests, API testing, UI automation, and load testing.',
       tech: ['Spring Boot', 'React', 'JUnit', 'Selenium', 'JMeter'],
-      github: 'https://github.com/nourshaaban1/Fitness-Tracker-Backend',
+      github: 'https://github.com/Ahmed-Yosri14/Fitness-Tracker-Backend',
       demo: '#',
       icon: TestTube,
       image: fitnessTrackerImg

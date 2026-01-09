@@ -80,7 +80,7 @@ export const cvData: CV = {
     {
       id: 'meat-home',
       title: 'Meat Home — Backend System',
-      link: 'https://github.com/Ahmed-Yosri14/Meat-Home-Backend',
+      link: 'https://github.com/Ahmed-Amer01/Meat-Home-Backend',
       tech: ['Spring Boot', 'MySQL'],
       year: '2025',
       summary: 'Built multi-role backend (customer, driver, admin, call-center) with secure JWT auth. Developed real-time order lifecycle logic and database models. Designed test cases and validated API endpoints during development.'
@@ -96,7 +96,7 @@ export const cvData: CV = {
     {
       id: 'lms',
       title: 'Learning Management System — Backend APIs',
-      link: 'https://github.com/Ahmed-Yosri14',
+      link: 'https://github.com/Ahmed-Yosri14/Learning-Management-System',
       tech: ['Spring Boot', 'MySQL'],
       year: '2023',
       summary: 'Developed backend modules for courses, enrollment, and authentication. Implemented JWT-based RBAC and tested API workflows.'
@@ -104,7 +104,7 @@ export const cvData: CV = {
     {
       id: 'django-kitchen',
       title: 'Django Kitchen Recipe Platform',
-      link: 'https://github.com/Ahmed-Yosri14',
+      link: 'https://github.com/Ahmed-Yosri14/Was-Fit-Mama-Website',
       tech: ['Django', 'MySQL'],
       year: '2023',
       summary: 'Built authentication, recipe CRUD, categories, and user interaction features.'
@@ -112,7 +112,7 @@ export const cvData: CV = {
     {
       id: 'cli',
       title: 'Command Line Interpreter',
-      link: 'https://github.com/Ahmed-Yosri14',
+      link: 'https://github.com/Ahmed-Yosri14/Command-Line-Interpreter',
       tech: ['Java'],
       year: '2024',
       summary: 'Developed modular command parsing engine following OOP design principles.'
