@@ -3,7 +3,7 @@ import type { CV } from '../types/cv';
 export const cvData: CV = {
   name: 'Ahmed Yosry',
   title: 'Software Engineer',
-  summary: 'Software Engineer with experience in Backend Development, Software Testing, and API-driven systems. Skilled in Java, Python, Django, Spring Boot, SQL, and building reliable backend services. Strong background in QA methodologies including manual testing, test case design, API testing, UI automation (Selenium), and load testing (JMeter). Ranked 26th in the CS department (GPA 3.71/4.00). Experienced in delivering clean architecture, debugging complex issues, and validating full-stack systems.',
+  summary: 'Computer Science student at Cairo University with hands-on experience in backend development and software testing. I enjoy building reliable systems using Java Spring Boot, designing RESTful APIs, and validating software through unit, API, and automated testing. I approach software with a quality-first mindset, focusing on correctness, edge cases, and maintainability. My background in competitive programming has strengthened my problem-solving skills and attention to detail, which I apply when developing and testing systems. Currently seeking entry-level opportunities where I can contribute to building well-tested, high-quality software while continuing to grow as a software engineer.',
 
   contact: [
     {
@@ -80,7 +80,7 @@ export const cvData: CV = {
     {
       id: 'meat-home',
       title: 'Meat Home — Backend System',
-      link: 'https://github.com/Ahmed-Yosri14',
+      link: 'https://github.com/Ahmed-Yosri14/Meat-Home-Backend',
       tech: ['Spring Boot', 'MySQL'],
       year: '2025',
       summary: 'Built multi-role backend (customer, driver, admin, call-center) with secure JWT auth. Developed real-time order lifecycle logic and database models. Designed test cases and validated API endpoints during development.'
@@ -88,7 +88,7 @@ export const cvData: CV = {
     {
       id: 'fitness-tracker',
       title: 'Fitness Tracker — Full Stack System',
-      link: 'https://github.com/Ahmed-Yosri14',
+      link: 'https://github.com/Ahmed-Yosri14/Fitness-Tracker-Backend',
       tech: ['Spring Boot', 'React', 'JUnit', 'Selenium', 'JMeter'],
       year: '2025',
       summary: 'Performed unit testing (JUnit), API testing (Postman), and UI automation (Selenium). Executed load testing with JMeter and verified system stability.'
