@@ -461,7 +461,7 @@ const Contact = () => {
           Feel free to reach out!
         </p>
         <div className="contact-links">
-          <a href="mailto:ahmedyosry1014@gmail.com" className="contact-btn">
+          <a href="https://mailto:ahmedyosry1014@gmail.com"  target="_blank" rel="noopener noreferrer" className="contact-btn">
             <Mail size={20} />
             Email Me
           </a>
