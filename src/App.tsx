@@ -465,7 +465,10 @@ const Contact = () => {
             <Mail size={20} />
             Email Me
           </a>
-          <a href="https://github.com/Ahmed-Yosri14" target="_blank" rel="noopener noreferrer" className="contact-btn">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmedyosry1014@gmail.com"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="contact-btn">
             <FaGithub size={20} />
             GitHub
           </a>
